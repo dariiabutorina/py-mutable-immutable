@@ -16,6 +16,7 @@ marks = {
 }
 collection_of_coins = {1, 2, 25}
 
+
 def sort_variables(*args) -> dict:
     results = {}
     mutable = []
@@ -34,5 +35,7 @@ def sort_variables(*args) -> dict:
     results["immutable"] = immutable
     return results
 
-sorted_variables = sort_variables(lucky_number, pi, one_is_a_prime_number, name, my_favourite_films,
-                                  profile_info, marks, collection_of_coins)
+
+sorted_variables = sort_variables(lucky_number, pi, one_is_a_prime_number,
+                                  name, my_favourite_films, profile_info,
+                                  marks, collection_of_coins)
